@@ -8,24 +8,7 @@ This project simulates a basic stock exchange environment with order matching, t
 - Order management and tracking
 - Simulated stock exchange environment
 
-## Project Structure
-TradingSimulation/
-exchange/
-─ init.py
-─ order.py
-─ orderbook.py
-─ stock_exchange.py
-─ oms.py
-─ trader.py
-
-simulation/
-─ init.py
-─ run_simulation.py
-─ main.py
-
-requirements.txt
-.gitignore
-README.md
+<pre> ## Project Structure ``` TradingSimulation/ ├── exchange/ │ ├── __init__.py │ ├── order.py │ ├── orderbook.py │ ├── stock_exchange.py │ ├── oms.py │ └── trader.py │ ├── simulation/ │ ├── __init__.py │ ├── run_simulation.py │ └── main.py │ ├── requirements.txt ├── .gitignore └── README.md ``` </pre>
 
 ## Getting Started
 1. Clone the repository:
@@ -40,7 +23,6 @@ python main.py
 
 ## Requirements
 - Python 3.7+
-- No external libraries required (or specify them in requirements.txt)
+- No external libraries required
 
-## License
-This project is open source and available under the MIT License.
+
